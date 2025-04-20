@@ -7,16 +7,16 @@ This repository contains two parts:
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
 The main goal of this project is to explore the differences between training a model from scratch and fine-tuning large pretrained models using transfer learning techniques.
 
-### ✅ Part A - Training from Scratch
+###  Part A - Training from Scratch
 - A custom CNN is built and trained on a subset of the iNaturalist dataset.
 - Basic data augmentation and standard training procedures are used.
 - Shows the limitations of training from scratch, especially with limited data and compute.
 
-### 🔁 Part B - Fine-Tuning Pretrained Models
+###  Part B - Fine-Tuning Pretrained Models
 - Used pretrained ResNet50 from torchvision models.
 - Introduced the ability to **freeze a percentage of layers** (e.g., 90%) for efficient fine-tuning.
 - Conducted a **W&B sweep** to find the best hyperparameters:
@@ -28,7 +28,7 @@ The main goal of this project is to explore the differences between training a m
 
 ---
 
-## 💡 Key Takeaways
+##  Key Takeaways
 
 Here are some things I learned while working with pretrained models compared to training from scratch:
 
@@ -39,7 +39,7 @@ Here are some things I learned while working with pretrained models compared to 
 
 ---
 
-## 📁 Files
+##  Files
 
 - `parta.ipynb` – Custom CNN trained from scratch.
 - `Partb.ipynb` – Pretrained ResNet50 fine-tuned with W&B hyperparameter sweep.
@@ -47,7 +47,7 @@ Here are some things I learned while working with pretrained models compared to 
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repo:
    ```bash
@@ -76,3 +76,6 @@ Make sure to install the following before running the notebooks:
 
 ```bash
 pip install torch torchvision matplotlib numpy wandb
+
+[WandB Report](https://wandb.ai/iitm-ma23m015/DA6401-Assignment_2/reports/MA23M015-DA6401-Assignment-2--VmlldzoxMjA4NTIyMw)
+
