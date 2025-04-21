@@ -1,11 +1,11 @@
 
-# 📁 Project: CNN Image Classifier
+#  Project: CNN Image Classifier
 
 This project implements a configurable **Convolutional Neural Network (CNN)** from scratch using PyTorch for image classification on the [iNaturalist 12K dataset](https://www.kaggle.com/datasets/ambityga/inaturalist-12k).
 
 ---
 
-## 🗂 Folder Structure
+##  Folder Structure
 
 ```
 cnn_project/
@@ -19,7 +19,7 @@ cnn_project/
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 Before running, install the required packages:
 
@@ -29,7 +29,7 @@ pip install torch torchvision opencv-python
 
 ---
 
-## 📥 Dataset
+##  Dataset
 
 Download the dataset from:  
 🔗 [iNaturalist 12K on Kaggle](https://www.kaggle.com/datasets/ambityga/inaturalist-12k)
@@ -50,7 +50,7 @@ data/inaturalist_12k/train/
 
 ---
 
-## 🧠 Hyperparameters
+##  Hyperparameters
 
 The following command-line arguments can be passed to `train.py`:
 
@@ -70,9 +70,9 @@ The following command-line arguments can be passed to `train.py`:
 
 ---
 
-## ▶️ How to Run the Code
+##  How to Run the Code
 
-### ✅ Step-by-step from Command Prompt
+###  Step-by-step from Command Prompt
 
 1. **Navigate to the project folder:**
 
@@ -80,7 +80,7 @@ The following command-line arguments can be passed to `train.py`:
 cd path\to\CNN
 ```
 
-> ⚠️ If there's a space in folder name (`Deep learning`), wrap the path in quotes.
+>  If there's a space in folder name (`Deep learning`), wrap the path in quotes.
 
 2. **Run training with default settings:**
 
@@ -102,7 +102,7 @@ python train.py --data_dir "./my_dataset_path/"
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - Model training progress (loss and accuracy) will be printed after each epoch.
 - You can enable/disable batch normalization using `--batch_norm`.
