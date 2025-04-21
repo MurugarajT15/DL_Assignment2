@@ -1,7 +1,7 @@
  Project: CNN Image Classifier
 This project implements a configurable Convolutional Neural Network (CNN) from scratch using PyTorch for image classification on the iNaturalist 12K dataset.
 
-##Folder Structure
+# Folder Structure
 cnn_project/
 ├── train.py                    # Main training script with manual arguments
 ├── models/
