@@ -77,7 +77,7 @@ The following command-line arguments can be passed to `train.py`:
 1. **Navigate to the project folder:**
 
 ```bash
-cd "C:\Users\rajum\OneDrive\Desktop\Deep learning\CNN"
+cd path\to\CNN
 ```
 
 > ⚠️ If there's a space in folder name (`Deep learning`), wrap the path in quotes.
