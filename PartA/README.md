@@ -10,38 +10,23 @@ cnn_project/
 │   └── transforms.py           # Data loading and augmentation logic
 └── data/inaturalist_12k/train/ # Place your dataset here manually
 
-📦 Dependencies
+# Dependencies
 Before running, install the required packages:
 
-bash
-Copy
-Edit
 pip install torch torchvision opencv-python
-📥 Dataset
+# Dataset
 Download the dataset from:
 🔗 iNaturalist 12K on Kaggle
 
 Then extract the train/ folder into:
-
-bash
-Copy
-Edit
 cnn_project/data/inaturalist_12k/train/
-The dataset should be in the format:
 
-bash
-Copy
-Edit
-data/inaturalist_12k/train/
-    ├── ants/
-    ├── butterflies/
-    ├── ...
-🧠 Hyperparameters
+# Hyperparameters
 The following command-line arguments can be passed to train.py:
 
 
 Argument	Type	Default	Description
---batch_size	int	64	Batch size for training and validation
+--batch_size	 int	64	Batch size for training and validation 
 --num_filters	int	32	Number of filters in the first conv layer
 --filter_org	str	double	Filter progression strategy: same, double
 --kernel_size	int*5	[3,3,3,3,3]	List of kernel sizes for 5 conv layers
